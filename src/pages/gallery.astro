@@ -1,0 +1,19 @@
+---
+// src/pages/gallery.astro
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout title="фото">
+  <section style="padding: 2rem; background-color: #E6F0FF;">
+    <h2 style="color: #007BFF;">Галлерея</h2>
+    <p style="color: #333;">Здесь представлена галлерея с моих выступлений.</p>
+
+  <div style="overflow-x: auto; white-space: nowrap; padding: 1rem 0;">
+  <div class="certificate-gallery" style="display: inline-flex; gap: 1rem;">
+    <img src="выступление1.jpg" alt="Сертификат 1" style="height: 300px; border-radius: 10px; border: 2px solid #007BFF;" />
+    <img src="выступление2.jpg" alt="Сертификат 2" style="height: 300px; border-radius: 10px; border: 2px solid #007BFF;" />
+    <img src="выступление3.jpg" alt="Сертификат 3" style="height: 300px; border-radius: 10px; border: 2px solid #007BFF;" />
+  </div>
+</div>
+  </section>
+</MainLayout>
