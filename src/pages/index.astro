@@ -3,14 +3,15 @@ import MainLayout from '../layouts/MainLayout.astro';
 ---
 
 <MainLayout title="Главная">
-  <section style="display: flex; gap: 2rem; padding: 2rem; background-color: #E6F0FF;">
-    <div style="flex: 1;">
+  <section style="display: flex; min-height: 80vh; padding: 2rem; background-color: #E6F0FF;">
+    <!-- Контейнер с текстом (занимает 1/3 ширины) -->
+    <div style="flex: 0 0 33%; max-width: 33%; padding-right: 2rem;">
       <h2 style="color: #007BFF;">Обо мне</h2>
       <p style="color: #333;">Меня зовут Ким Алина Евгеньевна, я — врач-колопроктолог с 18-летним опытом работы. Моя профессиональная деятельность посвящена диагностике, лечению и профилактике заболеваний толстой кишки, прямой кишки и анальной области.</p>
       <p style="color: #333;">Я горжусь тем, что могу помогать своим пациентам возвращать качество жизни, избавляя их от дискомфорта и боли.Моя цель — не просто вылечить, но и создать атмосферу доверия и комфорта для каждого пациента. Я верю, что внимательное отношение и индивидуальный подход — это ключ к успешному лечению.</p>
     </div>
     <div style="flex: 1; text-align: right;">
-      <img src="/doctor.jpg" alt="Доктор Ким" style="max-width: 100%; border-radius: 50%;" />
+      <img src="/doctor-kim-5.jpg" alt="Доктор Ким" style="max-width: 70%; border-radius: 40%;" />
     </div>
   </section>
 </MainLayout>

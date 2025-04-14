@@ -5,6 +5,7 @@ body {
   padding: 0;
   background-color: #E6F0FF;
   color: #333;
+  min-height: 100vh;
 }
 
 a {
@@ -26,6 +27,12 @@ footer {
   color: #fff;
   padding: 2rem;
   text-align: center;
+  margin-top: auto;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
 }
 
 .certificate-gallery img {
